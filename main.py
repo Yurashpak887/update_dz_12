@@ -2,7 +2,7 @@ from helpers import save, get_all_employers, get_employee_by_email, update
 
 
 while True:
-    print("1.Add new Employee\n2.Get all Employees\n3.Get employee by email")
+    print("1.Add new Employee\n2.Get all Employees\n3.Get employee by email\n4. Update by last name")
     flag = input("Choose menu item: ")
     if flag == "1":
         email = input("Employee email: ")
